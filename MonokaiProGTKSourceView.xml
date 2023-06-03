@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="monokai-pro_gtksourceview" _name="Monokai Pro GTKSourceView" version="1.0">
+	<author>Catwaii</author>
+	<_description>Monokai Pro port for GTKSourceView (intended for gedit)</_description>
+
+<!-- Colors -->
+
+	<color name="pink" value="#fd6087"/>
+	<color name="yellow" value="#fed765"/>
+	<color name="blue" value="#78dce8"/>
+	<color name="green" value="#a9dc76"/>
+	<color name="purple" value="#aa98df"/>
+	<color name="white" value="#f3f3f3"/>
+	<color name="gray" value="#6d6969"/>
+	<color name="black" value="#2c292d"/>
+	<color name="highlight" value="#383539"/>
+	<color name="selection" value="#434144"/>
+
+<!-- Global Settings -->
+
+	<style name="text" foreground="white" background="black"/>
+	<style name="cursor" foreground="white"/>
+	<style name="current-line" background="highlight"/>
+	<style name="line-numbers" foreground="gray" background="black"/>
+	<style name="selection" background="selection"/>
+
+<!-- Bracket Matching -->
+
+	<style name="bracket-match" foreground="yellow" background="black"/>
+	<style name="bracket-mismatch" foreground="pink" background="black" underline="true"/>
+	<style name="search-match" background="selection" bold="true" underline="true"/>
+
+<!-- Base syntax colors
+
+Languages: plain, python, ruby, xml, html, ada, asp, awk, boo, c,
+changelog, chdr, cmake, cpp, csharp, css, d, def, desktop, diff,
+docbook, dosbatch, dot, dpatch, dtd, eiffel, erlang, forth, fortran,
+gap, gtkrc, haddock, haskell, haskell-literate, idl, ini, java,
+javascript, latex, libtool, lua, m4, makefile, msil, nermele, nsis,
+objc, ocaml, ocl, octave, pascal, perl, php, pkgconfig, po, prolog,
+R, rpmspec, scheme, sh, sql, t2t, tcl, texinfo, vala, vbnet, verilog,
+vhdl, xslt, yacc
+
+-->
+
+	<style name="def:string" foreground="yellow"/>
+	<style name="def:character" foreground="yellow"/>
+	<style name="def:special-char" foreground="purple"/>
+
+	<style name="def:number" foreground="purple"/>
+	<style name="def:decimal" foreground="purple"/>
+	<style name="def:floating-point" foreground="purple"/>
+	<style name="def:complex" foreground="purple"/>
+	<style name="def:base-n-integer" foreground="purple"/>
+	<style name="def:boolean" foreground="purple"/>
+
+	<style name="def:builtin" foreground="pink" italic="true"/>
+	<style name="def:keyword" foreground="pink"/>
+	<style name="def:function" foreground="green"/>
+	<style name="def:type" foreground="blue" italic="true"/>
+	<style name="def:preprocessor" foreground="pink"/>
+	<style name="def:identifier" foreground="blue" italic="true"/>
+	<style name="def:operator" foreground="pink"/>
+	<style name="def:statement" foreground="blue"/>
+
+	<style name="def:constant" foreground="blue"/>
+	<style name="def:special-constant" foreground="blue"/>
+	<style name="def:error" foreground="black" background="pink" underline="true"/>
+
+<!-- XML -->
+
+	<style name="xml:attribute-name" foreground="blue" italic="true"/>
+	<style name="xml:element-name" foreground="pink"/>
+	<style name="xml:entity" foreground="white"/>
+	<style name="xml:namespace" foreground="pink"/>
+	<style name="xml:tag" foreground="pink"/>
+
+<!-- Comments -->
+
+	<style name="def:comment" foreground="gray" italic="true"/>
+	<style name="def:shebang" foreground="gray" italic="true"/>
+	<style name="def:doc-comment-element" foreground="gray" italic="true"/>
+	<style name="def:note" foreground="gray" italic="true"/>
+
+</style-scheme>
